@@ -1,0 +1,14 @@
+package git.qa.TestBase;
+
+public class BrowserClass {
+
+	public void test1() {
+		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+		WebDriver d = new ChromeDriver();
+		
+		
+	}
+	
+
+	
+}

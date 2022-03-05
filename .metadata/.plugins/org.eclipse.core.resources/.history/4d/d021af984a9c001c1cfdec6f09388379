@@ -1,0 +1,17 @@
+package git.qa.TestBase;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BrowserClass {
+
+	public void test1() {
+		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+		WebDriver d = new ChromeDriver();
+		
+		
+	}
+	
+
+	
+}
